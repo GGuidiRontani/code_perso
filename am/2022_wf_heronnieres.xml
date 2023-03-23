@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<batchjobs version="1.8.4">
+  <job name="BuildDem" target="all">
+    <filter_mode>2</filter_mode>
+    <projection>
+      <crs>PROJCS["RGF93 / Lambert-93",GEOGCS["RGF93",DATUM["Reseau Geodesique Francais 1993",SPHEROID["GRS 1980",6378137,298.257222101,AUTHORITY["EPSG","7019"]],TOWGS84[0,0,0,0,0,0,0],AUTHORITY["EPSG","6171"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.01745329251994328,AUTHORITY["EPSG","9102"]],AUTHORITY["EPSG","4171"]],PROJECTION["Lambert_Conformal_Conic_2SP",AUTHORITY["EPSG","9802"]],PARAMETER["latitude_of_origin",46.5],PARAMETER["central_meridian",3],PARAMETER["standard_parallel_1",49],PARAMETER["standard_parallel_2",44.00000000000001],PARAMETER["false_easting",700000],PARAMETER["false_northing",6600000],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AUTHORITY["EPSG","2154"]]</crs>
+      <transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</transform>
+      <surface>0</surface>
+      <radius>1</radius>
+    </projection>
+    <source_data>6</source_data>
+  </job>
+  <job name="BuildOrthomosaic" target="all">
+    <projection>
+      <crs>PROJCS["RGF93 / Lambert-93",GEOGCS["RGF93",DATUM["Reseau Geodesique Francais 1993",SPHEROID["GRS 1980",6378137,298.257222101,AUTHORITY["EPSG","7019"]],TOWGS84[0,0,0,0,0,0,0],AUTHORITY["EPSG","6171"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.01745329251994328,AUTHORITY["EPSG","9102"]],AUTHORITY["EPSG","4171"]],PROJECTION["Lambert_Conformal_Conic_2SP",AUTHORITY["EPSG","9802"]],PARAMETER["latitude_of_origin",46.5],PARAMETER["central_meridian",3],PARAMETER["standard_parallel_1",49],PARAMETER["standard_parallel_2",44.00000000000001],PARAMETER["false_easting",700000],PARAMETER["false_northing",6600000],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AUTHORITY["EPSG","2154"]]</crs>
+      <transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</transform>
+      <surface>0</surface>
+      <radius>1</radius>
+    </projection>
+    <refine_seamlines>true</refine_seamlines>
+    <surface_data>4</surface_data>
+  </job>
+  <job name="ExportOrthomosaic" target="all">
+    <image_compression>
+      <tiff_big>true</tiff_big>
+      <tiff_tiled>true</tiff_tiled>
+      <tiff_overviews>true</tiff_overviews>
+      <tiff_compression>32946</tiff_compression>
+      <jpeg_quality>90</jpeg_quality>
+    </image_compression>
+    <image_format>2</image_format>
+    <path>E:/0_en_cours/2022_mel_heronnieres/orthophotos/temp/{chunklabel}_1cm_pix_l93.tif</path>
+    <projection>
+      <crs>PROJCS["RGF93 / Lambert-93",GEOGCS["RGF93",DATUM["Reseau Geodesique Francais 1993",SPHEROID["GRS 1980",6378137,298.257222101,AUTHORITY["EPSG","7019"]],TOWGS84[0,0,0,0,0,0,0],AUTHORITY["EPSG","6171"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.01745329251994328,AUTHORITY["EPSG","9102"]],AUTHORITY["EPSG","4171"]],PROJECTION["Lambert_Conformal_Conic_2SP",AUTHORITY["EPSG","9802"]],PARAMETER["latitude_of_origin",46.5],PARAMETER["central_meridian",3],PARAMETER["standard_parallel_1",49],PARAMETER["standard_parallel_2",44.00000000000001],PARAMETER["false_easting",700000],PARAMETER["false_northing",6600000],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AUTHORITY["EPSG","2154"]]</crs>
+      <transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</transform>
+      <surface>0</surface>
+      <radius>1</radius>
+    </projection>
+  </job>
+</batchjobs>

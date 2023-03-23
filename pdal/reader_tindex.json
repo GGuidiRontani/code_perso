@@ -1,0 +1,20 @@
+[
+    {
+        "type":"readers.tindex",
+        "filename":"E:/0000_test/NDVI/tindex.gpkg",
+		"srs_column":"srs",
+		"lyr_name":"tuiles_500",
+		"tindex_name":"location",
+		"t_srs":"EPSG:2154"
+    },
+    {
+        "type":"writers.gdal",
+		"filename":"E:/0000_test/NDVI/tindex_ir.tif",
+        "resolution":"5",
+        "gdaldriver":"GTiff",
+        "nodata":"-9999",
+        "output_type":"max",
+		"dimension":"Infrared",
+		"default_srs":"EPSG:2154"
+    }
+]

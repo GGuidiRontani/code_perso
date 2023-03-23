@@ -1,0 +1,16 @@
+[
+    {
+        "type":"readers.las",
+		"filename":"E:/0_en_cours/2020_classification/test/moche.laz",
+        "compression":"laszip"
+    },
+    {
+        "type" : "filters.hexbin",
+		"edge_size":"1",
+		"sample_size":"5000",
+		"threshold":"15",
+		"precision":"8",
+		"preserve_topology":"false",
+		"smooth":"false"
+    }
+]

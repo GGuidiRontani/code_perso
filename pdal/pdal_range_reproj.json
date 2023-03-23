@@ -1,0 +1,22 @@
+{
+"pipeline": [
+	{
+		"type": "readers.las",
+		"spatialreference":"EPSG:2154"
+	},
+	{
+		"type":"filters.range",
+		"limits":"Classification[2:2]"
+	},
+    {
+        "type":"filters.reprojection",
+        "in_srs":"EPSG:2154",
+        "out_srs":"EPSG:3950"
+    },
+    {
+		"type":"writers.las",
+		"compression":"laszip",
+		"a_srs":"EPSG:3950"
+    }
+]
+}

@@ -1,0 +1,24 @@
+{
+"pipeline": [
+	{
+		"type": "readers.las",
+		"filename":"//batzella.lmcu.fr/lidar/2018/aerodata/classification/laz/694000_7055000.laz",
+		"spatialreference":"EPSG:2154"
+	},
+	{
+		"type":"filters.range",
+		"limits":"Classification[2:2]"
+	},
+	{
+		"type":"filters.crop",
+		"polygon":"Polygon ((694524.5625 7054289.5, 694944.1875 7054289.5, 694944.1875 7054648.5, 694524.5625 7054648.5, 694524.5625 7054289.5))"
+	},
+    {
+        "type":"writers.text",
+        "format":"csv",
+        "order":"X,Y,Z",
+        "keep_unspecified":"false",
+        "filename":"E:/0000_test/breaklines/crop_694000_7055000.csv"
+    }
+]
+}

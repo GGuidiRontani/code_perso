@@ -1,0 +1,29 @@
+[
+    {
+        "type":"readers.las",
+		"filename":"//batzella/lidar/2020/vansteelandt/laz_tuiles_500_class/tuile_702500_7058500.laz",
+        "compression":"laszip"
+    },
+    {
+        "type": "filters.ferry",
+        "dimensions": "=>NDVI"
+    },
+    {
+        "type":"filters.range",
+        "limits":"Classification[2:2]"
+    },
+    {
+        "type":"filters.assign",
+        "value" : "NDVI = ((Infrared - Red) / (Infrared + Red)) * 100 + 100"
+    },
+    {
+      "filename":"E:/0000_test/NDVI/2020_test_ndvi_cl2.tif",
+      "type":"writers.gdal",
+      "gdaldriver":"GTIFF",
+	  "dimension":"Infrared",
+      "gdalopts":"COMPRESS=DEFLATE, TILED=YES",
+      "output_type":"idw",
+      "resolution":"0.2",
+      "nodata":"-9999"
+    }
+]

@@ -1,0 +1,8 @@
+{
+"pipeline": [
+    {
+        "type": "readers.ept",
+        "filename": "//batzella.lmcu.fr/lidar/2020/vansteelandt/ept/ept.json","//batzella.lmcu.fr/lidar/2018/aerodata/classification/ept/ept.json",
+        "bounds": "([xmin, xmax], [ymin, ymax])",
+        "spatialreference":"EPSG:2154"
+    },

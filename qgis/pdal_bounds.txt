@@ -1,0 +1,1 @@
+'		"bounds": "([' || round(x_min($geometry),2) || ', ' || round(x_max($geometry),2) || '], [' || round(y_min($geometry),2) || ', ' || round(y_max($geometry),2) || '])",'

@@ -1,0 +1,1 @@
+ogr2ogr -f GPKG ouput.gpkg input.gpkg -dialect sqlite -sql "SELECT ST_Union(geom) AS geom FROM imput table" -nln table name -append -overwrite
