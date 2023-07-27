@@ -1,0 +1,1 @@
+python D:\applications\miniforge3\envs\gdal\Scripts\ogrmerge.py -f GPKG -a_srs EPSG:2154 -progress -single -o E:\0_en_cours\2023_scot_hauteur_vegetation\docs\prepa\merged.gpkg E:\0_en_cours\2023_scot_hauteur_vegetation\docs\prepa\2020_adulm_vegetation.gpkg

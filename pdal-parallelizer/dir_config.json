@@ -1,0 +1,6 @@
+{
+    "input": "path/folder",
+    "output": "path/folder",
+	"temp": "path/folder",
+    "pipeline": "path/pipeline.json"
+}

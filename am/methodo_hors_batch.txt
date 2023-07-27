@@ -1,0 +1,6 @@
+EXPORTS MODELES POUR COVADIS :
+dxf 3dfaces
+A la différence du dxf polylignes, permet de générer un MNT Covadis en une seule commande.
+
+EXPORTS MODELES AVEC TEXTURES POUR LUMION ET SKETCHFAB
+DAE - FBX - 3DS - OBJ en coordonnées locales

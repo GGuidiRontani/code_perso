@@ -1,0 +1,13 @@
+- renommage des photos sur FreeCommander pour correspondre aux noms du fichier Inpho
+suppression 22FDHF05Ax
+
+- modification fichier Inpho
+S:\OPC2022_PAN\FR22018_20220421_4605-9895_PAN
+S:\OPC2022_PAN\FR22018_20220420_7-4542_PAN
+S:\OPC2022_PAN\FR22018_20220614_16703-23049_PAN
+S:\OPC2022_PAN\FR22018_20220428_9901-14408_PAN
+S:\OPC2022_PAN\FR22018_20220616_23105-27093_PAN => E:\0_en_cours\2022_ign\rvb_lille_rename
+
+.tif => .jp2
+
+Import camera

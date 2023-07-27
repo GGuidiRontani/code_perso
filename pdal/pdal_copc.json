@@ -1,0 +1,11 @@
+[
+    {
+        "type":"readers.e57",
+        "filename":"E:\0_en_cours\2023_lille_flandres\nuages\BNH_MEL_METROLILLEFLANDRES.e57"
+    },
+    {
+        "type":"writers.copc",
+        "filename":"E:\0_en_cours\2023_lille_flandres\nuages\BNH_MEL_METROLILLEFLANDRES.copc.laz",
+		"threads":"15"
+    }
+]

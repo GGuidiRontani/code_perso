@@ -1,0 +1,130 @@
+2023-03-31 11:00:52|   0.0|  0.0|INFORM|FME 2020.2.1.0 (20201130 - Build 20806 - WIN64)
+2023-03-31 11:00:52|   0.0|  0.0|INFORM|FME_HOME is 'D:\applications\fme\2020_2_1\'
+2023-03-31 11:00:52|   0.0|  0.0|INFORM|FME Database Edition (floating)
+2023-03-31 11:00:52|   0.0|  0.0|INFORM|Permanent License.
+2023-03-31 11:00:52|   0.0|  0.0|INFORM|Machine host name is: MEL0151808
+2023-03-31 11:00:52|   0.0|  0.0|INFORM|START - ProcessID: 20096, peak process memory usage: 44476 kB, current process memory usage: 44476 kB
+2023-03-31 11:00:52|   0.0|  0.0|INFORM|FME Configuration: Command line arguments are `D:\applications\fme\2020_2_1\fme.exe' `E:\0000_git\code_perso\fme\lasl932recapl93.fmw' `--SourceDataset_LAS' `E:\0_en_cours\2023_annoeullin_vent_bise\nuages\2023_02_02_annoeullin_vent_bise_nuage_44kpts_prec4cm_l93.laz' `--DestDataset_RECAP' `E:\0_en_cours\2023_annoeullin_vent_bise\nuages\2023_02_02_annoeullin_vent_bise_nuage_44kpts_prec4cm_l93'
+2023-03-31 11:00:52|   0.0|  0.0|INFORM|FME Configuration: Connection Storage: 'C:\Users\gguidirontani\AppData\Roaming\Safe Software\FME\'
+2023-03-31 11:00:54|   1.1|  1.1|INFORM|Shared folders for formats are : D:\applications\fme\2020_2_1\datasources;C:\Users\gguidirontani\Documents\FME\Formats
+2023-03-31 11:00:54|   1.1|  0.0|INFORM|Shared folders for transformers are : C:\Users\gguidirontani\AppData\Roaming\Safe Software\FME\Packages\20806-win64\transformers;D:\applications\fme\2020_2_1\transformers;C:\Users\gguidirontani\AppData\Roaming\Safe Software\FME\FME Store\Transformers
+2023-03-31 11:00:54|   1.1|  0.0|INFORM|Shared folders for coordinate systems are : C:\Users\gguidirontani\Documents\FME\CoordinateSystems
+2023-03-31 11:00:54|   1.1|  0.0|INFORM|Shared folders for coordinate system exceptions are : C:\Users\gguidirontani\Documents\FME\CoordinateSystemExceptions
+2023-03-31 11:00:54|   1.1|  0.0|INFORM|Shared folders for coordinate system grid overrides are : C:\Users\gguidirontani\Documents\FME\CoordinateSystemGridOverrides
+2023-03-31 11:00:54|   1.1|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : C:\Users\gguidirontani\Documents\FME\CsmapTransformationExceptions
+2023-03-31 11:00:54|   1.1|  0.0|INFORM|Shared folders for transformer categories are : C:\Users\gguidirontani\Documents\FME\TransformerCategories
+2023-03-31 11:00:54|   1.1|  0.0|INFORM|FME Configuration: Reader Keyword is `MULTI_READER'
+2023-03-31 11:00:54|   1.1|  0.0|INFORM|FME Configuration: Writer Keyword is `MULTI_WRITER'
+2023-03-31 11:00:54|   1.1|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `MULTI_WRITER_DEF'
+2023-03-31 11:00:54|   1.1|  0.0|INFORM|FME Configuration: Reader type is `MULTI_READER'
+2023-03-31 11:00:54|   1.1|  0.0|INFORM|FME Configuration: Writer type is `MULTI_WRITER'
+2023-03-31 11:00:54|   1.1|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2023-03-31 11:00:54|   1.1|  0.0|INFORM|FME Configuration: Current working folder is `E:\0000_git\code_perso\fme'
+2023-03-31 11:00:54|   1.1|  0.0|INFORM|FME Configuration: Temporary folder is `C:\Users\GGUIDI~1\AppData\Local\Temp', set from environment variable `TEMP'
+2023-03-31 11:00:54|   1.1|  0.0|INFORM|FME Configuration: FME_HOME is `D:\applications\fme\2020_2_1\'
+2023-03-31 11:00:54|   1.1|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
+2023-03-31 11:00:54|   1.1|  0.0|INFORM|FME Configuration: FME_MF_DIR is 'E:\0000_git\code_perso\fme/'
+2023-03-31 11:00:54|   1.1|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'lasl932recapl93.fmw'
+2023-03-31 11:00:54|   1.1|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2020.2.1.0'
+2023-03-31 11:00:54|   1.1|  0.0|INFORM|System Status: 1.68 TB of disk space available in the FME temporary folder (C:\Users\GGUIDI~1\AppData\Local\Temp)
+2023-03-31 11:00:54|   1.1|  0.0|INFORM|System Status: 255.71 GB of physical memory available
+2023-03-31 11:00:54|   1.1|  0.0|INFORM|System Status: 1022.84 GB of virtual memory available
+2023-03-31 11:00:54|   1.1|  0.0|INFORM|Operating System: Microsoft Windows 10 64-bit  (Build 19041)
+2023-03-31 11:00:54|   1.1|  0.0|INFORM|FME Platform: WIN64
+2023-03-31 11:00:54|   1.1|  0.0|INFORM|Locale: fr_FR
+2023-03-31 11:00:54|   1.1|  0.0|INFORM|System Encoding: windows-1252
+2023-03-31 11:00:54|   1.1|  0.0|INFORM|FME Configuration: Start freeing memory when the process exceeds 767.13 GB
+2023-03-31 11:00:54|   1.1|  0.0|INFORM|FME Configuration: Stop freeing memory when the process is below 575.35 GB
+2023-03-31 11:00:56|   1.3|  0.2|INFORM|Creating writer for format: 
+2023-03-31 11:00:56|   1.3|  0.0|INFORM|Creating reader for format: 
+2023-03-31 11:00:56|   1.3|  0.0|INFORM|MULTI_READER(MULTI_READER): Will fail with first member reader failure
+2023-03-31 11:00:56|   1.3|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding LAS Reader with keyword LAS_1
+2023-03-31 11:00:56|   1.3|  0.0|INFORM|Using Multi Reader with keyword `MULTI_READER' to read multiple datasets
+2023-03-31 11:00:56|   1.3|  0.0|INFORM|Creating reader for format: ASPRS Lidar Data Exchange Format (LAS)
+2023-03-31 11:00:56|   1.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `LAS'
+2023-03-31 11:00:56|   1.4|  0.0|INFORM|FME Configuration: Source coordinate system for reader LAS_1[LAS] set to `EPSG:2154'
+2023-03-31 11:00:57|   1.6|  0.3|INFORM|Coordinate System `EPSG:2154' parameters: CS_NAME=`Lambert93' DESC_NM=`Lambert-93 with RGF93 datum, whole country' DT_NAME=`RGF93' EPSG_QD=`1' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`52' MAX_LNG=`10' MIN_LAT=`42' MIN_LNG=`-6' ORG_LAT=`46.5' ORG_LNG=`3' PARM1=`44' PARM2=`49' PROJ=`LM' QUAD=`1' SCL_RED=`1' SOURCE=`IGN Paris' UNIT=`METER' X_OFF=`700000' Y_OFF=`6600000' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-03-31 11:00:57|   1.6|  0.0|INFORM|Loaded module 'LAS' from file 'D:\applications\fme\2020_2_1\LIDAR_FME.dll'
+2023-03-31 11:00:57|   1.6|  0.0|INFORM|FME API version of module 'LAS' matches current internal version (3.8 20200115)
+2023-03-31 11:00:57|   1.6|  0.0|INFORM|Using MultiWriter with keyword `MULTI_WRITER' to output data (ID_ATTRIBUTE is `multi_writer_id')
+2023-03-31 11:00:57|   1.6|  0.0|INFORM|Writer output will be ordered by value of multi_writer_id
+2023-03-31 11:00:57|   1.7|  0.0|INFORM|FME Configuration: Using FME Reprojection Engine
+2023-03-31 11:00:57|   1.7|  0.0|INFORM|Creating writer for format: Autodesk ReCap
+2023-03-31 11:00:57|   1.7|  0.0|INFORM|Trying to find a DYNAMIC plugin for writer named `RECAP'
+2023-03-31 11:00:57|   1.7|  0.0|INFORM|Loaded module 'RECAP' from file 'D:\applications\fme\2020_2_1\plugins/recap/recap.dll'
+2023-03-31 11:00:57|   1.7|  0.0|INFORM|FME API version of module 'RECAP' matches current internal version (3.8 20200115)
+2023-03-31 11:00:57|   1.7|  0.0|INFORM|FME Configuration: Destination coordinate system set to `EPSG:2154'
+2023-03-31 11:00:57|   1.7|  0.0|INFORM|Coordinate System `EPSG:2154' parameters: CS_NAME=`Lambert93' DESC_NM=`Lambert-93 with RGF93 datum, whole country' DT_NAME=`RGF93' EPSG_QD=`1' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`52' MAX_LNG=`10' MIN_LAT=`42' MIN_LNG=`-6' ORG_LAT=`46.5' ORG_LNG=`3' PARM1=`44' PARM2=`49' PROJ=`LM' QUAD=`1' SCL_RED=`1' SOURCE=`IGN Paris' UNIT=`METER' X_OFF=`700000' Y_OFF=`6600000' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-03-31 11:00:57|   1.7|  0.0|INFORM|FME API version of module 'RECAP' matches current internal version (3.8 20200115)
+2023-03-31 11:00:57|   1.7|  0.0|INFORM|Writer `RECAP_1' of type `RECAP' using group definition keyword `RECAP_1_DEF'
+2023-03-31 11:00:57|   1.7|  0.0|INFORM|FME API version of module 'RECAP' matches current internal version (3.8 20200115)
+2023-03-31 11:00:57|   1.7|  0.0|INFORM|ReCap Writer: Project name 'Project1' specified
+2023-03-31 11:00:57|   1.7|  0.0|INFORM|Creating writer for format: ASPRS Lidar Data Exchange Format (LAS)
+2023-03-31 11:00:57|   1.7|  0.0|INFORM|Trying to find a DYNAMIC plugin for writer named `LAS'
+2023-03-31 11:00:57|   1.7|  0.0|INFORM|FME API version of module 'LAS' matches current internal version (3.8 20200115)
+2023-03-31 11:00:57|   1.7|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2023-03-31 11:00:57|   1.7|  0.0|INFORM|FME API version of module 'LAS' matches current internal version (3.8 20200115)
+2023-03-31 11:00:57|   1.7|  0.0|INFORM|FME API version of module 'LAS' matches current internal version (3.8 20200115)
+2023-03-31 11:00:57|   1.7|  0.0|INFORM|LAS writer: Directive '_VERSION' has the value '1.3'
+2023-03-31 11:00:57|   1.7|  0.0|INFORM|LAS writer: Directive '_COMPRESSION' has the value 'none'
+2023-03-31 11:00:57|   1.7|  0.0|INFORM|FME Configuration: Destination coordinate system set to input coordinate system `EPSG:2154'
+2023-03-31 11:00:57|   1.7|  0.0|WARN  |LAS writer: Converting component 'angle' from type 'Int16' to 'Int8'.  If this conversion is undesired, consider changing the type explicitly
+2023-03-31 11:00:57|   1.7|  0.0|WARN  |LAS writer: The following components will be dropped from the point cloud: classification_flags, scanner_channel
+2023-03-31 11:00:57|   1.8|  0.1|INFORM|LAS writer: Writing point cloud with 44018342 point(s) to file 'C:\Users\GGUIDI~1\AppData\Local\Temp\FME_TEMP_LAS_1680253257788_20096\2023_02_02_annoeullin_vent_bise_nuage_44kpts_prec4cm_l93.las'
+2023-03-31 11:01:02|   5.9|  4.1|INFORM|LAS writer: 5320000 of 44018342 points written
+2023-03-31 11:01:07|  10.9|  4.9|INFORM|LAS writer: 11410000 of 44018342 points written
+2023-03-31 11:01:12|  15.8|  5.0|INFORM|LAS writer: 18170000 of 44018342 points written
+2023-03-31 11:01:17|  20.7|  4.9|INFORM|LAS writer: 25580000 of 44018342 points written
+2023-03-31 11:01:22|  25.6|  4.9|INFORM|LAS writer: 32570000 of 44018342 points written
+2023-03-31 11:01:27|  30.6|  5.0|INFORM|LAS writer: 39750000 of 44018342 points written
+2023-03-31 11:01:30|  33.5|  3.0|INFORM|LAS writer: 44018342 of 44018342 points written
+2023-03-31 11:01:30|  33.6|  0.0|INFORM|MULTI_READER(MULTI_READER): Done reading 1 features from 1 readers
+2023-03-31 11:01:30|  33.6|  0.0|INFORM|Emptying factory pipeline
+2023-03-31 11:01:30|  33.6|  0.0|STATS |Router and Unexpected Input Remover (RoutingFactory): Tested 1 input feature(s), wrote 1 output feature(s): 1 matched merge filters, 1 were routed to output, 0 could not be routed.
+2023-03-31 11:01:30|  33.6|  0.0|STATS |LAS_LAS_1 Splitter (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-03-31 11:01:30|  33.6|  0.0|STATS |ModuloCounter (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-03-31 11:01:30|  33.6|  0.0|STATS |Destination Feature Type Routing Correlator (RoutingFactory): Tested 1 input feature(s), wrote 1 output feature(s): 0 matched merge filters, 1 were routed to output, 0 could not be routed.
+2023-03-31 11:01:30|  33.6|  0.0|STATS |Final Output Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-03-31 11:01:30|  33.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-03-31 11:01:30|  33.6|  0.0|STATS |                            `Count' Domain Summary
+2023-03-31 11:01:30|  33.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-03-31 11:01:30|  33.6|  0.0|STATS |modcounter                                                                   1
+2023-03-31 11:01:30|  33.6|  0.0|STATS |==============================================================================
+2023-03-31 11:01:30|  33.6|  0.0|STATS |Total `@Count' Invocations:                                                  1
+2023-03-31 11:01:30|  33.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-03-31 11:01:30|  33.6|  0.0|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-03-31 11:01:30|  33.6|  0.0|INFORM|Feature output statistics for `LAS' writer using keyword `W_2':
+2023-03-31 11:01:30|  33.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-03-31 11:01:30|  33.6|  0.0|STATS |                               Features Written
+2023-03-31 11:01:30|  33.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-03-31 11:01:30|  33.6|  0.0|STATS |2023_02_02_annoeullin_vent_bise_nuage_44kpts_prec4cm_l93                     1
+2023-03-31 11:01:30|  33.6|  0.0|STATS |==============================================================================
+2023-03-31 11:01:30|  33.6|  0.0|STATS |Total Features Written                                                       1
+2023-03-31 11:01:30|  33.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-03-31 11:01:30|  33.6|  0.0|INFORM|ReCap Writer: Creating project 'Project1' and corresponding scan files
+2023-03-31 11:03:52|  34.3|  0.8|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-03-31 11:03:52|  34.3|  0.0|INFORM|Feature output statistics for `RECAP' writer using keyword `RECAP_1':
+2023-03-31 11:03:52|  34.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-03-31 11:03:52|  34.3|  0.0|STATS |                               Features Written
+2023-03-31 11:03:52|  34.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-03-31 11:03:52|  34.3|  0.0|STATS |2023_02_02_annoeullin_vent_bise_nuage_44kpts_prec4cm_l93                     1
+2023-03-31 11:03:52|  34.3|  0.0|STATS |==============================================================================
+2023-03-31 11:03:52|  34.3|  0.0|STATS |Total Features Written                                                       1
+2023-03-31 11:03:52|  34.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-03-31 11:03:52|  34.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-03-31 11:03:52|  34.3|  0.0|STATS |                            Features Read Summary
+2023-03-31 11:03:52|  34.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-03-31 11:03:52|  34.3|  0.0|STATS |LAS                                                                          1
+2023-03-31 11:03:52|  34.3|  0.0|STATS |==============================================================================
+2023-03-31 11:03:52|  34.3|  0.0|STATS |Total Features Read                                                          1
+2023-03-31 11:03:52|  34.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-03-31 11:03:52|  34.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-03-31 11:03:52|  34.3|  0.0|STATS |                           Features Written Summary
+2023-03-31 11:03:52|  34.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-03-31 11:03:52|  34.3|  0.0|STATS |2023_02_02_annoeullin_vent_bise_nuage_44kpts_prec4cm_l93                     1
+2023-03-31 11:03:52|  34.3|  0.0|STATS |==============================================================================
+2023-03-31 11:03:52|  34.3|  0.0|STATS |Total Features Written                                                       1
+2023-03-31 11:03:52|  34.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-03-31 11:03:52|  34.3|  0.0|INFORM|Translation was SUCCESSFUL with 2 warning(s) (1 feature(s) output)
+2023-03-31 11:03:52|  34.3|  0.0|INFORM|FME Session Duration: 3 minutes 0.1 seconds. (CPU: 29.5s user, 3.9s system)
+2023-03-31 11:03:52|  34.3|  0.0|INFORM|END - ProcessID: 20096, peak process memory usage: 102332 kB, current process memory usage: 102248 kB

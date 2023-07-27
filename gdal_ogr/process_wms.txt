@@ -1,0 +1,23 @@
+WinSCP (soft)
+création lien symbloique batzella -> webserver/externe
+
+Geoserver (appli en ligne)
+entrepot :
+- Raster
+- nom de la source sans _ ex. Lidar 2020 MNHR
+- description sans _ ex. Lidar 2020 MNHR
+- url file://+adresse batzella ex. file:///batzella/lidar/2020/vansteelandt/raster/mnhr/mnhr_deflate.tif
+
+couche :
+- selection entrepot ajouté
+- publier
+- nom avc _ ex. DIG_LIDAR_MNT_2018
+- titre sans _ ex. DIG - LIDAR - MNT - 2018
+- résumé reprise de la fiche Isogeo
+!!!! la consultation des onglets caches de tuiles et sécurité fait planter l'outils... !!!!
+
+Isogeo (appli en ligne)
+étiquettes :
+3_Externe_Open Data 3_Interne_Tout agent MEL - Sezam 3_Interne_DIG
+faire le lien flux WMS -> ressource
+ajouter lien webimaging pour téléchargement
