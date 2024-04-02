@@ -1,0 +1,27 @@
+[
+    {
+        "type":"readers.las",
+		"filename":"E:/0_en_cours/2020_classification/test/input/sub/3_covar_sub_periurb.laz",
+        "compression":"laszip"
+    },
+    {
+        "type":"filters.overlay",
+        "dimension":"Classification",
+        "datasource":"E:/0_en_cours/2020_classification/test/output/test_overlay.shp",
+        "column":"DN",
+		"where":"Classification == 1"
+    },
+    {
+        "type":"writers.las",
+		"filename":"E:/0_en_cours/2020_classification/test/output/3_covar_sub_periurb.laz",
+        "compression":"laszip",
+        "a_srs":"EPSG:2154",
+        "extra_dims":"all",
+        "forward":"all",
+		"minor_version":"4",
+		"dataformat_id":"8",
+        "offset_x":"0.01",
+        "offset_y":"0.01",
+        "offset_z":"0.01"
+    }
+]

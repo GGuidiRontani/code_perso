@@ -1,0 +1,1 @@
+python D:\applications\miniforge3\envs\gdal\Lib\site-packages\GDAL-3.7.1-py3.11-win-amd64.egg-info\scripts\gdal_polygonize.py -8 "D:\en_cours\2023_sdit\sig\mnhr_11m.tif" -b 1 -f "ESRI Shapefile" "D:\en_cours\2023_sdit\sig\bati_sdit.shp"

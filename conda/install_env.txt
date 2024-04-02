@@ -1,0 +1,4 @@
+PDAL + Rush
+conda create --name pdal_rush
+conda activate pdal_rush
+conda install conda-forge::pdal

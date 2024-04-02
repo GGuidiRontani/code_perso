@@ -1,0 +1,17 @@
+{
+"pipeline": [
+    {
+        "type":"readers.e57",
+        "filename":"E:/1_verse/2022_villeneuve_dascq_m6/nuages/LinoM6_E57/1.e57",
+		"default_srs":"EPSG:3950"
+    },
+    {
+        "type":"writers.las",
+        "filename":"E:/1_verse/2022_villeneuve_dascq_m6/nuages/2022_villeneuve_dascq_m6_pdal.laz",
+		"a_srs":"EPSG:3950",
+		"forward":"all",
+		"extra_dims":"all",
+		"compression":"laszip"
+    }
+]
+}

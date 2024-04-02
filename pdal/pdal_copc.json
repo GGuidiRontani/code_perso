@@ -4,6 +4,11 @@
         "filename":"E:\0_en_cours\2023_lille_flandres\nuages\BNH_MEL_METROLILLEFLANDRES.e57"
     },
     {
+        "type":"filters.reprojection",
+        "in_srs":"EPSG:3950",
+        "out_srs":"EPSG:3950"
+    },
+    {
         "type":"writers.copc",
         "filename":"E:\0_en_cours\2023_lille_flandres\nuages\BNH_MEL_METROLILLEFLANDRES.copc.laz",
 		"threads":"15"

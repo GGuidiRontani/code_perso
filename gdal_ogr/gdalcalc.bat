@@ -1,0 +1,1 @@
+python D:\applications\miniforge3\envs\gdal\Lib\site-packages\GDAL-3.7.1-py3.11-win-amd64.egg-info\scripts\gdal_calc.py -A D:\en_cours\2023_sdit\sig\crop_mnhr.tif --outfile=D:\en_cours\2023_sdit\sig\mnhr_11m.tif --calc="A*logical_not(A<11)" --NoDataValue=0
