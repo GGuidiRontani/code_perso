@@ -1,0 +1,26 @@
+[
+    {
+        "type":"readers.e57"
+    },
+    {
+        "type":"filters.voxelcentroidnearestneighbor",
+        "cell":0.5
+    },
+    {
+          "type": "filters.ferry",
+          "dimensions": "=>render"
+    },
+    {
+          "type": "filters.assign",
+          "assignment": "render[:]=1"
+    },
+    {
+        "type":"writers.gdal",
+        "gdaldriver":"GTIFF",
+		"default_srs":"EPSG:3950",
+        "dimension":"render",
+        "output_type":"max",
+        "resolution":"0.5",
+        "nodata":"-9999"
+    }
+]
