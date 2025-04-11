@@ -1,17 +1,54 @@
-{
-"pipeline": [
-    {
-        "type":"readers.e57",
-        "filename":"E:/1_verse/2022_villeneuve_dascq_m6/nuages/LinoM6_E57/1.e57",
-		"default_srs":"EPSG:3950"
-    },
+[
+"E:/0000_test/2024_rush_crop/tile/tuile_702000_7058000.laz",
+"E:/0000_test/2024_rush_crop/tile/tuile_702000_7059000.laz",
+"E:/0000_test/2024_rush_crop/tile/tuile_702000_7058500.laz",
+"E:/0000_test/2024_rush_crop/tile/tuile_701500_7058000.laz",
+"E:/0000_test/2024_rush_crop/tile/tuile_701500_7058500.laz",
+"E:/0000_test/2024_rush_crop/tile/tuile_705000_7060500.laz",
+"E:/0000_test/2024_rush_crop/tile/tuile_704000_7057500.laz",
+"E:/0000_test/2024_rush_crop/tile/tuile_704500_7057500.laz",
+"E:/0000_test/2024_rush_crop/tile/tuile_702000_7057500.laz",
+"E:/0000_test/2024_rush_crop/tile/tuile_703000_7061000.laz",
+"E:/0000_test/2024_rush_crop/tile/tuile_703500_7061500.laz",
+"E:/0000_test/2024_rush_crop/tile/tuile_703500_7061000.laz",
+"E:/0000_test/2024_rush_crop/tile/tuile_704500_7060500.laz",
+"E:/0000_test/2024_rush_crop/tile/tuile_704500_7061000.laz",
+"E:/0000_test/2024_rush_crop/tile/tuile_705000_7061000.laz",
+"E:/0000_test/2024_rush_crop/tile/tuile_707500_7056500.laz",
+"E:/0000_test/2024_rush_crop/tile/tuile_708500_7056500.laz",
+"E:/0000_test/2024_rush_crop/tile/tuile_708000_7056500.laz",
+"E:/0000_test/2024_rush_crop/tile/tuile_708500_7057000.laz",
+"E:/0000_test/2024_rush_crop/tile/tuile_708000_7057000.laz",
+"E:/0000_test/2024_rush_crop/tile/tuile_705500_7058000.laz",
+"E:/0000_test/2024_rush_crop/tile/tuile_705500_7058500.laz",
+"E:/0000_test/2024_rush_crop/tile/tuile_706000_7058000.laz",
+"E:/0000_test/2024_rush_crop/tile/tuile_703500_7064500.laz",
+"E:/0000_test/2024_rush_crop/tile/tuile_700500_7057000.laz",
+"E:/0000_test/2024_rush_crop/tile/tuile_700500_7057500.laz",
+"E:/0000_test/2024_rush_crop/tile/tuile_700500_7059000.laz",
+"E:/0000_test/2024_rush_crop/tile/tuile_701000_7059000.laz",
+"E:/0000_test/2024_rush_crop/tile/tuile_700500_7058500.laz",
+"E:/0000_test/2024_rush_crop/tile/tuile_701000_7058500.laz",
+"E:/0000_test/2024_rush_crop/tile/tuile_707500_7062000.laz",
+"E:/0000_test/2024_rush_crop/tile/tuile_707500_7061500.laz",
+"E:/0000_test/2024_rush_crop/tile/tuile_707000_7062000.laz",
+"E:/0000_test/2024_rush_crop/tile/tuile_709000_7057500.laz",
+"E:/0000_test/2024_rush_crop/tile/tuile_709000_7058000.laz",
+"E:/0000_test/2024_rush_crop/tile/tuile_709500_7056000.laz",
+"E:/0000_test/2024_rush_crop/tile/tuile_709500_7056500.laz",
+"E:/0000_test/2024_rush_crop/tile/tuile_710000_7056500.laz",
+"E:/0000_test/2024_rush_crop/tile/tuile_710000_7056000.laz",
+"E:/0000_test/2024_rush_crop/tile/tuile_702000_7059500.laz",
+"E:/0000_test/2024_rush_crop/tile/tuile_701500_7059500.laz",
+	{
+		"type":"filters.merge"
+	},
     {
         "type":"writers.las",
-        "filename":"E:/1_verse/2022_villeneuve_dascq_m6/nuages/2022_villeneuve_dascq_m6_pdal.laz",
-		"a_srs":"EPSG:3950",
+        "filename":"E:/0000_test/2024_rush_crop/tile/input.laz",
+		"a_srs":"EPSG:2154",
 		"forward":"all",
 		"extra_dims":"all",
 		"compression":"laszip"
     }
 ]
-}

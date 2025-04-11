@@ -1,0 +1,35 @@
+{
+"pipeline": [
+"//batzella/lidar/2020/vansteelandt/laz_tuiles_500_class/tuile_687500_7050000.laz",
+"//batzella/lidar/2020/vansteelandt/laz_tuiles_500_class/tuile_687500_7049500.laz",
+"//batzella/lidar/2020/vansteelandt/laz_tuiles_500_class/tuile_688500_7050000.laz",
+"//batzella/lidar/2020/vansteelandt/laz_tuiles_500_class/tuile_688500_7049500.laz",
+"//batzella/lidar/2020/vansteelandt/laz_tuiles_500_class/tuile_688000_7050000.laz",
+"//batzella/lidar/2020/vansteelandt/laz_tuiles_500_class/tuile_687500_7050500.laz",
+"//batzella/lidar/2020/vansteelandt/laz_tuiles_500_class/tuile_688000_7049500.laz",
+	{
+		"type":"filters.crop",
+		"polygon":"MultiPolygon (((687759.61205357103608549 7049787.81488095130771399, 687889.35833333292976022 7049916.30148809403181076, 687899.43571428535506129 7049985.58348214160650969, 687736.93794642819557339 7050124.14747023768723011, 687768.42976190440822393 7050158.15863095130771399, 687745.75565476156771183 7050224.92127976100891829, 687879.28095238050445914 7050445.36398809310048819, 687783.54583333292976022 7050503.30892856977880001, 687880.54062499955762178 7050654.46964285522699356, 688058.15446428535506129 7050456.70104166492819786, 688432.2772321425145492 7050364.74494047462940216, 688611.15074404724873602 7049713.49419642519205809, 688210.57485119008924812 7049608.94136904459446669, 687986.35312499955762178 7049485.49345237761735916, 687759.61205357103608549 7049787.81488095130771399)))"
+	},
+	{
+        "type": "filters.merge"
+	},
+    {
+        "type":"filters.voxelcentroidnearestneighbor",
+        "cell":2
+    },
+    {
+        "type":"filters.reprojection",
+        "in_srs":"EPSG:2154",
+        "out_srs":"EPSG:3950"
+    },
+    {
+        "type":"writers.text",
+        "format":"csv",
+        "order":"X,Y,Z",
+		"write_header":"true",
+		"precision":"2",
+        "filename":"E:/0_en_cours/2024_illessalome_zac/nuages/test_2m.csv"
+    }
+]
+}

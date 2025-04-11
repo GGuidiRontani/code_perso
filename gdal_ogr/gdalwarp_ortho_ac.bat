@@ -1,3 +1,5 @@
-REM gdalwarp -overwrite -s_srs EPSG:2154 -t_srs EPSG:2154 -of GTiff -cutline "\\volt\infogeo\UF_Acquisition\drone\preparation_mission\preparation_missions.gpkg" -csql "SELECT geom FROM entites WHERE lieu='duhem' AND etat='a faire'" -crop_to_cutline -dstnodata 0 -co COMPRESS=JPEG -r lanczos \\batzella.lmcu.fr\vuesaeriennes\orthos\2021\2021_ortho_ign_20cm_l93.tif E:\test_crop_3bandes.tif
+gdalwarp -overwrite -s_srs EPSG:2154 -t_srs EPSG:3950 -of GTiff -cutline "\\volt\infogeo\UF_Acquisition\drone\preparation_mission\preparation_missions.gpkg" -csql "SELECT geom FROM entites WHERE lieu='fives_cail' AND etat='a faire'" -crop_to_cutline -dstnodata 0 -co COMPRESS=JPEG -r lanczos \\batzella\vuesaeriennes\orthos\2022\geo2france\orthophoto\2022_A_OrthoPCRS_MEL_0m05_RVB_COG_complete.tif E:\output.tif
 
-gdal_translate -of GTiff -co COMPRESS=JPEG -r lanczos -a_srs EPSG:3950 -a_nodata 0 E:\0_en_cours\2022_villeneuve_dascq_m6\orthophotos\2022_12_14_ortho_2cm_pix_prec_3cm_cc50_4bandes.tif E:\0_en_cours\2022_villeneuve_dascq_m6\orthophotos\2022_12_14_ortho_2cm_pix_prec_3cm_cc50.tif
+gdal_translate -of GTiff -co COMPRESS=JPEG -r lanczos -a_srs EPSG:3950 -a_nodata 0 E:\output.tif \\batzella\modeles3D\2024\2024_lille_fives_cail\orthophotos\2022_lille_fives_cail_ortho5cm_cc50.tif
+
+DEL E:\output.tif
