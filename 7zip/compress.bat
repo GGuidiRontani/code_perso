@@ -1,1 +1,1 @@
-for /d %%X in (*) do "C:\Program Files\7-Zip\7z.exe" a "\\batzella.lmcu.fr\modeles3D\2020\2020_mel_mesh\maillages\obj\%%X.7z" "%%X\" -r -x!*.glb
+for /d %%X in (*) do "C:\Program Files\7-Zip\7z.exe" a "path\%%X.7z" "%%X\" -r -x!*.glb

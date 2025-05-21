@@ -1,1 +1,1 @@
-gdalwarp -of GTiff -co COMPRESS=DEFLATE -dstalpha -co BIGTIFF=IF_SAFER -co NUM_THREADS=ALL_CPUS -overwrite "\\batzella.lmcu.fr\modeles3D\2022\2022_mel_heronnieres\orthophotos\2022_05_haubourdin_canteraine_ortho_3cm_pix_l93.tif"  "\\batzella.lmcu.fr\modeles3D\tif\haubourd_ss_ovw.tif"
+gdalwarp -of GTiff -co COMPRESS=DEFLATE -dstalpha -co BIGTIFF=IF_SAFER -co NUM_THREADS=ALL_CPUS -overwrite "path\in_raster.tif" "path\out_raster.tif"
